@@ -27,7 +27,6 @@ class Tag extends Layer
 			shadowY : 2
 			shadowColor : "rgba(0,0,0,0.05)"
 			shadowBlur : 3
-		
 		@arrow = new Layer
 			parent: @
 			width:12

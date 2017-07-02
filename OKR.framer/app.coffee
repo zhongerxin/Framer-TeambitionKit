@@ -21,6 +21,7 @@ defaultAnimation =
 #基础颜色设定
 opacityColor = new Color("#ffffff").alpha(.0)
 tb_Blue = new Color("#3DA8F5")
+tb_Blue_60 = new Color("#3696DC")
 tb_Red = new Color("#FF4F3E")
 tb_Black_100 = new Color("#383838")
 tb_Black_90 = new Color("#808080")
@@ -33,7 +34,7 @@ tb_Black_20 = new Color("#FFFFFF")
 
 
 {CardStack,Card} = require "okrKit"
-{Icon,menu} = require "iconModule"
+{Icon,menu,plus_bold} = require "iconModule"
 
 cardstack = new CardStack
 	x: Screen.midX - 135
@@ -42,6 +43,47 @@ cardstack.onClick ->
 	@width = 1000
 	@tagLabel = "rrrrr"
 	@refresh()
+	
+class Button extends TextLayer
+	constructor: (options) ->
+		super _.defaults options,
+			height:40
+			width:76
+			borderRadius:4
+			backgroundColor:tb_Blue
+			text: "Button"
+			textAlign: "center"
+			fontSize: 14
+			fontWeight: 600
+			lineHeight: 1
+			color:tb_Black_20
+		@states.default = 
+			backgroundColor:@backgroundColor
+			animationOptions:defaultAnimation
+		@states.hover = 
+			backgroundColor:tb_Blue_60
+			animationOptions:defaultAnimation
+		@lineHeight = @height/@fontSize
+		@on "mouseenter", ->
+			cursorPointer()
+			@animate("hover")
+		@on "mouseleave", ->
+			cursorAuto()
+			@animate("default")
+		
+class CircleButton extends Button
+	constructor: (options) ->
+		super _.defaults options,
+			height:24
+			width:24
+			text:""
+			borderRadius:12
+			name:""
+		@icon = new Icon
+			name:@name
+			midX:@midX
+			midY:@midY
+			color:tb_Black_20	
 
 class Navigation extends Layer
 	constructor: (options) ->
@@ -49,8 +91,6 @@ class Navigation extends Layer
 			height: 48
 			width:Screen.width
 			backgroundColor:opacityColor
-		@init()
-	init: ->
 		@background = new Layer
 			parent:@
 			width:@width
@@ -61,6 +101,7 @@ class Navigation extends Layer
 			shadowColor: "rgba(0,0,0,0.15)"
 			shadowBlur: 3
 		@icon_workSpaceMenu = new Icon
+			name:menu
 			x:20
 			midY:@height/2
 			parent:@
@@ -73,7 +114,6 @@ class Navigation extends Layer
 			height: 18
 			fontSize: 18
 			lineHeight: 1
-			fontFamily: "-apple-system"
 			color:tb_Black_100
 		@input_searchBar = new TextLayer
 			x: @label_workSpaceTitle.maxX + 20
@@ -88,10 +128,21 @@ class Navigation extends Layer
 			text: "在当前企业中搜索"
 			fontSize: 14
 			lineHeight: 32/14
-			fontFamily: "-apple-system"
 			color:tb_Black_70
 			padding:
 				left: 36
+		@button_addTask = new CircleButton
+			x: @input_searchBar.maxX + 20
+			midY:@height/2
+			parent:@
+			name:plus_bold
+		@avatar_selfNormal = new Layer
+			midY:@height/2
+			maxX:@width - 16
+			image: "images/avatar-12.png"
+			width:28
+			height:28
+			borderRadius:14
 
 
 nav = new Navigation
