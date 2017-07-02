@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>fill</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cell/header" transform="translate(-85.000000, -27.000000)" fill="#3DA8F5">
+            <g id="Group-2">
+                <g>
+                    <g id="icon" transform="translate(90.000000, 30.000000) scale(-1, 1) rotate(-270.000000) translate(-90.000000, -30.000000) translate(80.000000, 20.000000)">
+                        <path d="M7.4926,14.5906 C7.2576,14.3576 7.2576,13.9776 7.4926,13.7436 L11.2346,9.9996 L7.4926,6.2576 C7.2576,6.0236 7.2576,5.6436 7.4926,5.4096 C7.7266,5.1746 8.1066,5.1746 8.3406,5.4096 L12.5076,9.5756 C12.7416,9.8096 12.7416,10.1896 12.5076,10.4246 L8.3406,14.5906 C8.2236,14.7076 8.0696,14.7666 7.9166,14.7666 C7.7636,14.7666 7.6096,14.7076 7.4926,14.5906 Z" id="fill"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

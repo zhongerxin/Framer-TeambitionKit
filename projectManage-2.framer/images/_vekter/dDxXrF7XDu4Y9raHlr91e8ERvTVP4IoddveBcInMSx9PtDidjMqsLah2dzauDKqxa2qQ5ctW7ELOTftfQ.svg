@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="5px" viewBox="0 0 10 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="20"></rect>
+    </defs>
+    <g id="web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="项目管理板-cell-hover" transform="translate(-758.000000, -126.000000)">
+            <g id="arrow" transform="translate(753.000000, 118.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle-3"></g>
+                <path d="M5.73075627,8 L14.2822111,8 L14.2822111,8 C14.4478966,8 14.5822111,8.13431458 14.5822111,8.3 C14.5822111,8.37890291 14.5511265,8.4546293 14.4956902,8.51077637 L10.4145956,12.6442015 L10.4146241,12.6442297 C10.2206098,12.8407317 9.90403371,12.8427485 9.70753163,12.6487342 C9.70752213,12.6487248 9.70751262,12.6487154 9.70750312,12.648706 L5.51996279,8.51346219 L5.51996279,8.51346219 C5.40207088,8.39704417 5.40087605,8.20709843 5.51729408,8.08920652 C5.5736596,8.03212739 5.6505372,8 5.73075627,8 Z" id="Rectangle-5" fill="#A6A6A6" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
