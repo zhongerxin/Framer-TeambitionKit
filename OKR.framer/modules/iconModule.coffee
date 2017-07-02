@@ -25,9 +25,9 @@ class Icon extends Layer
 	init: ->
 		@html = """
 		<?xml version="1.0" encoding="UTF-8"?>
-		<svg fill="#{@color}" width="20x" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<svg fill="#{@color}" width="40x" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<defs>
-			<polygon id="path-1" points="0 40 40 40 40 0 0 0"></polygon>
+			<polygon id="path-1" points="0 20 20 20 20 0 0 0"></polygon>
 		</defs>
 		<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         	<g id="web" transform="translate(-432.000000, -724.000000)">
