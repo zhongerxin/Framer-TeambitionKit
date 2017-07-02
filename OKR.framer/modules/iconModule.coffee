@@ -29,7 +29,17 @@ class Icon extends Layer
 		<defs>
 			<polygon id="path-1" points="0 40 40 40 40 0 0 0"></polygon>
 		</defs>
-		#{@name}
+		<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        	<g id="web" transform="translate(-432.000000, -724.000000)">
+            	<g id="icon" transform="translate(432.000000, 724.000000)">
+                	<mask id="mask-2" fill="white">
+                    	<use xlink:href="#path-1"></use>
+                	</mask>
+                	<g id="boxIcon"></g>
+               		#{@name}
+            	</g>
+        	</g>
+    	</g>
 		</svg>"""
 
 
