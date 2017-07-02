@@ -1,0 +1,27 @@
+{
+  "version" : 0,
+  "root" : {
+    "id" : "ltJ96n0y",
+    "__class" : "CanvasNode",
+    "parentid" : null,
+    "children" : [
+      {
+        "id" : "~M5+F2PD",
+        "__class" : "FrameNode",
+        "x" : 0,
+        "parentid" : "ltJ96n0y",
+        "width" : 1440,
+        "y" : -4,
+        "deviceType" : "apple-macbook-pro",
+        "type" : "apple-macbook-pro",
+        "children" : [
+
+        ],
+        "height" : 900,
+        "fillColor" : "rgb(245, 245, 245)",
+        "targetName" : null,
+        "name" : null
+      }
+    ]
+  }
+}
