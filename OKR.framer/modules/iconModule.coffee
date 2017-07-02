@@ -27,19 +27,10 @@ class Icon extends Layer
 		<?xml version="1.0" encoding="UTF-8"?>
 		<svg fill="#{@color}" width="40x" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<defs>
-			<polygon id="path-1" points="0 20 20 20 20 0 0 0"></polygon>
+			<polygon id="path-1" points="0 40 40 40 40 0 0 0"></polygon>
 		</defs>
-		<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        	<g id="web" transform="translate(-432.000000, -724.000000)">
-            	<g id="icon" transform="translate(432.000000, 724.000000)">
-                	<mask id="mask-2" fill="white">
-                    	<use xlink:href="#path-1"></use>
-                	</mask>
-                	<g id="boxIcon"></g>
-               		#{@name}
-            	</g>
-        	</g>
-    	</g>
+	
+		#{@name}
 		</svg>"""
 
 
