@@ -102,7 +102,7 @@ class Navigation extends Layer
 			shadowBlur: 3
 		@icon_workSpaceMenu = new Icon
 			name:menu
-			x:20
+			x:16
 			midY:@height/2
 			parent:@
 			color:tb_Black_80
