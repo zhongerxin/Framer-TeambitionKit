@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 20 20 20 20 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="new" transform="translate(-858.000000, -292.000000)">
+            <g id="section-1" transform="translate(318.000000, 88.000000)">
+                <g id="grid" transform="translate(0.000000, 40.000000)">
+                    <g id="projectCard-Copy" transform="translate(300.000000, 0.000000)">
+                        <g id="icon" transform="translate(240.000000, 164.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="boxIcon"></g>
+                            <path d="M17.9708,8.1528 C17.8998,7.9358 17.7128,7.7778 17.4868,7.7448 L12.6848,7.0478 L10.5378,2.6968 C10.3358,2.2878 9.6638,2.2878 9.4618,2.6968 L7.3148,7.0478 L2.5138,7.7448 C2.2878,7.7778 2.0998,7.9358 2.0298,8.1528 C1.9588,8.3698 2.0178,8.6088 2.1808,8.7678 L5.6558,12.1548 L4.8348,16.9368 C4.7968,17.1618 4.8888,17.3898 5.0738,17.5238 C5.1788,17.5998 5.3018,17.6378 5.4268,17.6378 C5.5218,17.6378 5.6178,17.6148 5.7058,17.5698 L9.9998,15.3118 L14.2938,17.5698 C14.4968,17.6758 14.7418,17.6588 14.9258,17.5238 C15.1108,17.3898 15.2028,17.1618 15.1648,16.9368 L14.3448,12.1548 L17.8188,8.7678 C17.9828,8.6088 18.0408,8.3698 17.9708,8.1528 L17.9708,8.1528 Z" id="fill" fill="#A6A6A6" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

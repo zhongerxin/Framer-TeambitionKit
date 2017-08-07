@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 20 20 20 20 0 0 0"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/arrow-down/normal" transform="translate(0.000000, 1.000000)">
+            <g transform="translate(10.000000, 10.000000) scale(-1, 1) rotate(90.000000) translate(-10.000000, -10.000000) ">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="boxIcon"></g>
+                <path d="M8.55923045,15 C8.41668608,15 8.27321004,14.9381113 8.16420552,14.815383 C7.94526483,14.5709753 7.94526483,14.1723704 8.16420552,13.9269137 L11.6504868,9.99960664 L8.16420552,6.0743975 C7.94526483,5.82894081 7.94526483,5.43033593 8.16420552,5.18487924 C8.38221456,4.93837359 8.73624633,4.93837359 8.95425537,5.18487924 L12.8364932,9.55484751 C13.0545023,9.8003042 13.0545023,10.1989091 12.8364932,10.4454147 L8.95425537,14.815383 C8.84525085,14.9381113 8.70177482,15 8.55923045,15 L8.55923045,15 Z" id="fill" fill="#808080" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

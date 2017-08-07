@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs><polygon id="path-1" points="0 20 20 20 20 0 0 0"></polygon></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="web" transform="translate(-48.000000, -579.000000)" fill="#000000">
+            <g id="icon" transform="translate(48.000000, 579.000000)">
+                <path d="M13.361712,18 C13.1990164,18 13.0352574,17.9403373 12.9108431,17.8220232 L6.18715316,11.4290151 C6.06805569,11.3157572 6,11.1610387 6,11.0002528 C6,10.8394669 6.06805569,10.6857597 6.18715316,10.5714905 L12.9108431,4.1774712 C13.1596717,3.94084293 13.5637524,3.94084293 13.812581,4.1774712 C14.062473,4.41409946 14.062473,4.79836758 13.812581,5.03600708 L7.54082345,11.0002528 L13.812581,16.9655098 C14.062473,17.2011268 14.062473,17.5853949 13.812581,17.8220232 C13.6881667,17.9403373 13.5244077,18 13.361712,18 L13.361712,18 Z" id="fill" transform="translate(9.761625, 10.922250) rotate(-180.000000) translate(-9.761625, -10.922250) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

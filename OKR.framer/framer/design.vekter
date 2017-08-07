@@ -1,5 +1,5 @@
 {
-  "version" : 0,
+  "version" : 2,
   "root" : {
     "id" : "ltJ96n0y",
     "__class" : "CanvasNode",
@@ -14,12 +14,20 @@
         "y" : -4,
         "deviceType" : "apple-macbook-pro",
         "type" : "apple-macbook-pro",
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
         "children" : [
 
         ],
         "height" : 900,
-        "fillColor" : "rgb(245, 245, 245)",
+        "fillType" : "color",
         "targetName" : null,
+        "fillColor" : "rgb(245, 245, 245)",
         "name" : null
       }
     ]
